@@ -1,0 +1,5 @@
+# Ignorar directorios de compilación de Cargo en cualquier subcarpeta
+**/target/
+
+# Ignorar archivos de estado de Cargo
+**/*.lock
