@@ -1,0 +1,20 @@
+// 1. IMPORTACIONES (si las hubiera, ej: use std::io;)
+
+// 2. DEFINICIÓN DE TIPOS Y ESTRUCTURAS (Enums, Structs)
+#[derive(Debug)]
+enum ModoRed {
+    Wifi,
+    Ethernet,
+    Desconectado,
+}
+
+// 3. FUNCIONES
+fn verificar_estado(modo: ModoRed) {
+    // ...
+}
+
+// 4. EL MAIN (El punto de entrada)
+fn main() {
+    let mi_conexion = ModoRed::Wifi;
+    verificar_estado(mi_conexion);
+}
