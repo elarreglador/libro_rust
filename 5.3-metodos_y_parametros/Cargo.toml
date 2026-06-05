@@ -1,0 +1,6 @@
+[package]
+name = "metodos_y_parametros"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
